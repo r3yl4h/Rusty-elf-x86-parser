@@ -3,7 +3,7 @@ it's a small program written in rust with only the standard library to analyze t
 
 ## output
 ```
- C:\code\rust\rusty_Elf_parser\target\debug> C:\code\rust\rusty_Elf_parser\target\debug\rusty_Elf_parser.exe "\\wsl.localhost\kali-linux\root\main" 
+ C:\code\rust\rusty_Elf_parser\target\debug> C:\code\rust\rusty_Elf_parser\target\debug\rusty_Elf_parser.exe "C:\test\main" 
      ELF Identification: [0x7f, 0x45, 0x4c, 0x46, 0x2, 0x1, 0x1, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ]
      Type: 3 (Shared object file)
      Machine: 62  ;x86-64
