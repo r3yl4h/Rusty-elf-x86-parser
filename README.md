@@ -539,6 +539,8 @@ it's a small program written in rust with only the standard library to analyze t
 
 ```
 ```
+========================================================================================================================
+
 dynsym table offset: 0x400 - size: 0x618
 string table offset: 0xa18 - size: 0x3ec
 
