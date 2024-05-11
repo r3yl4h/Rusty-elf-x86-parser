@@ -30,7 +30,7 @@ pub fn get_machine(machine: u16) -> &'static str {
         16 => "Reserved for future use",
         17 => "Fujitsu VPP500",
         18 => "Enhanced instruction set SPARC",
-        19 => "Intel 80960",
+        19 => "x32",
         20 => "PowerPC",
         40 => "ARM",
         50 => "IA64",
