@@ -6,7 +6,6 @@ mod x32;
 
 
 fn main() {
-    let mut filepath;
     let args: Vec<String> = env::args().collect();
     if args.len() > 1 {
         let filepath = args[1].as_str();
@@ -18,7 +17,7 @@ fn main() {
         };
     }else {
         loop {
-            filepath = String::new();
+            let mut filepath = String::new();
             print!("enter the path of elf : ");
             io::stdout().flush().unwrap();
             io::stdin().read_line(&mut filepath).unwrap();
